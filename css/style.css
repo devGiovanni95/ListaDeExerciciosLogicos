@@ -1,0 +1,30 @@
+body,
+html {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right, #34e89e, #0f3443);
+}
+
+.principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  height: 100px;
+  width: 500px;
+  margin: 5px;
+  background: linear-gradient(to right, #6190e8, #a7bfe8);
+  font-size: 35px;
+  color: #030604;
+}
